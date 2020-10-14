@@ -1,0 +1,25 @@
+// UTILITIES
+@import 'utilities/_normalize.scss';
+@import 'utilities/_variables.scss';
+@import 'utilities/_mixins.scss';
+
+// PAGES
+@import 'pages/_home.scss';
+
+
+// LAYOUT
+@import 'layout/_header.scss';
+@import 'layout/_first.scss';
+@import 'layout/_second.scss';
+@import 'layout/_footer.scss';
+
+// COMPONENTS
+@import 'components/_card.scss';
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 56px 163px 0px 100px;
+    font-family: 'Mulish';
+    background: #F3F7FF;
+}

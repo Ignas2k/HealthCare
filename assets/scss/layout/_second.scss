@@ -1,0 +1,66 @@
+#second {
+    // width: 1120px;
+  .second_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 192px;
+    h2 {
+      font-size: 36px;
+      width: 100%;
+      text-align: center;
+    }
+    .break {
+      background-color: black;
+      width: 56px;
+      height: 2px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 18px;
+      color: $gray;
+    }
+  }
+  .second_card_holder {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 80px;
+    div {
+      display: flex;
+      flex-direction: column;
+      width: 32%;
+      border: solid white;
+      background-color: white;
+      margin: 0px 10px 10px 0px;
+      box-shadow: 7px 4px 10px -7px;
+      border-radius: 5%;
+      img {
+        width: 70px;
+        margin-left: 37px;
+        margin-top: 40px;
+      }
+      h3 {
+        margin-left: 37px;
+      }
+      p {
+        font-size: 16px;
+        color: $gray;
+        font-weight: 300;
+        margin-left: 37px;
+      }
+    }
+  }
+  .second_more {
+      display: flex;
+      justify-content: center;
+      input {
+      width: 200px;
+      height: 60px;
+      border-radius: 50px;
+      color: $blue;
+    border-color: $blue;
+    background: $white;
+    }
+  }
+}
